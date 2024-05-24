@@ -1,0 +1,388 @@
+/*
+	#b4c90c
+*/
+html {
+	height: 100%; 
+	margin-bottom: 1px;
+}
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background: #e6e6ef url(/web/20181114155036im_/http://dare2018.dnagroup.org/pvback.jpg) repeat-x left top;
+	/*font: 100%/1.4em Arial, Verdana, sans-serif;*/
+	font: normal 75%/1.4em Arial, Verdana, sans-serif;
+	color: #222;
+}
+p {
+	margin-top: 0;
+	margin-bottom: 5px;
+	text-align: justify;
+}
+
+a:link,
+a:visited {
+	#color: #004b33;
+	color: #2a62bd;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:hover,
+a:active {
+	#color: #63914A;
+	color: #2a62bd;
+	text-decoration: underline;
+}
+a img {
+	border: none;
+}
+a em {
+  text-transform: uppercase;
+  text-decoration: underline;
+  font: bold 10px Arial, Helvetica, sans-serif;
+}
+
+ul {
+	margin-left:0px;
+	padding-left:15px;
+	padding-bottom:2px;
+}
+li {
+	margin-left:0px;
+	padding-top:3px;
+	padding-bottom:2px;
+}
+td {
+	vertical-align: top;
+}
+
+#container {
+	position: relative;	
+	width: 808px;
+	margin: 0px auto 0px auto;
+	padding: 0px 0px 0px 0px;
+}
+#c3 { 
+	margin: 0px 4px 0px 4px;
+	background: white;
+}
+#content {
+	position: relative;
+	margin: 0px 0px 0px 170px;		/* twocol: 0px 4px 0px 120px */
+	padding: 15px 55px 35px 30px;
+}
+.contentgroup {
+	position: relative;
+	padding: 8px 8px 4px 8px;
+	margin: 5px 0px 0px 0px;
+	width: 650px;
+}
+.minifiller {
+	padding-bottom: 100px;
+}
+#content:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+#footer:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+#header {
+	margin: 0px 0px 0px 0px;
+	height: 162px;
+	border-bottom: 1px solid #7ab2fd;
+}
+#header-bg {
+	z-index: 1;
+	width:900px;
+	position: absolute;
+	top: 0px;
+	left: 4px;
+}
+#header-title {
+	z-index: 2;
+	position: absolute;
+	top: 61px;
+	right: 38px;
+	font-size: 3.2em;
+	font-weight: bold;
+	color: #3a72cd;
+	line-height:100%;
+	margin-top: 0;
+}
+#header-title:hover,
+#header-title:active {
+	text-decoration: none;
+}
+#header-subtitle {
+	z-index: 2;
+	position: absolute;
+	top: 115px;
+	right: 38px;
+	/*right: 496px;*/
+	font-size: 1.3em;
+	font-weight: bold;
+	color: #1a52ad;
+	line-height:100%;
+}
+#header-subtitle:hover,
+#header-subtitle:active {
+	text-decoration: none;
+}
+#header-toptitle {
+	z-index: 2;
+	position: absolute;
+	top: 27px;
+	right: 38px;
+	/*right: 496px;*/
+	font-size: 200%;
+	font-weight: bold;
+	color: #1a52ad;
+	line-height:100%;
+}
+#header-toptitle :hover,
+#header-toptitle :active {
+	text-decoration: none;
+}
+#header-logo-tl {
+	z-index: 3;
+	position: absolute;
+	top: -15px;
+	left: 0px;
+	height: 160px;
+}
+#header-name-level1 {
+	z-index: 2;
+	position: absolute;
+	top: 29px;
+	left: 339px;
+}
+#header-name-level2 {
+	z-index: 2;
+	position: absolute;
+	top: 70px;
+	left: 476px;
+}
+#header-name-level3 {
+	z-index: 2;
+	position: absolute;
+	top: 87px;
+	left: 600px;
+}
+#header-logo-top-right {
+	z-index: 2;
+	position: absolute;
+	top: 17px;
+	left: 696px;
+}
+#header-funspot {
+	z-index: 10;
+	position: absolute;
+	left: 839px;
+	top: 16px;
+	font-size: 70px;
+	height: 50px;
+	width: 50px;
+	text-decoration: none;
+}
+
+#footer {
+	width: 100%;
+  background: white;
+	border-bottom: 1px solid #DDD;
+}
+#footer-content {
+	text-align: right;
+	margin: 0px 20px 0px 177px;		/* +125 */
+	padding: 5px 10px 10px 0px;		/* + 15 */
+	float: right;					
+	width: 728px;
+	color: #aaa;
+	#border-top: 1px solid #f4d994;
+	border-top: 1px solid #5a92ed;
+}
+#footer p {			font-family: Verdana; 
+					font-size: 8pt;
+					margin-bottom:5px;
+					line-height: 1.5em;				}
+#footer #funonoff {
+	margin-right: 30px;
+}
+#footer a {			color: #aaa; 					}
+#footer a:hover { 	color: #444;					}
+
+
+/* ------------------------------------------------------------------------------
+	Menu
+------------------------------------------------------------------------------ */
+#menu {
+	position: absolute;
+	width: 135px;
+	left: 24px;
+	top: 175px;
+	font: normal 100%/1.6em Arial, Verdana, sans-serif;
+	margin: 11px 0px 11px 0px;
+	padding: 1px 8px 2px 0px;
+	border-right: 1px solid #bad2fd;
+}
+#members-only {
+	color: dark grey;
+	font-weight: bold;
+	font-size: 90%;
+}
+.nav-list-item {
+	margin: 1px 0px 2px 0px;
+}
+.nav-list-spacer {
+	width: 50%;
+	margin: 15px auto 15px auto;
+	border-bottom: 1px solid #eeeeee;
+}
+.nav-list-spacer-small {
+	width: 50%;
+	margin: 5px auto 5px auto;
+}
+
+/* ------------------------------------------------------------------------------
+	Frontpage
+------------------------------------------------------------------------------ */
+#fpcontentgroup {
+	position: relative;
+	padding: 8px 8px 4px 8px;
+	margin: 5px 0px 0px 0px;
+	width: 700px;
+	text-align: justify;
+}
+#fppic {
+	border: 1px solid #b4c90c;
+	float: right;
+	width: 350px;
+	margin: 0px 0px 15px 15px;
+}
+
+/* ------------------------------------------------------------------------------
+	Tabular Overview
+------------------------------------------------------------------------------ */
+.table {
+	position: relative;
+}
+.tableheader {
+	border-top: 1px solid #b4c90c;
+	border-bottom: 1px solid #b4c90c;
+	padding: 3px 0px 3px 0px;
+	background: #F3B927;
+	font-weight: bold;
+	position: relative;
+	height: 20px;
+}
+.tablerow-odd {
+	background: #F7D171;
+	height: 20px;
+}
+.tablerow-even {
+	background: #FFE1A4;
+	height: 20px;
+}
+.tablefooter {
+	border-top: 1px solid #b4c90c;
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+}
+
+
+
+
+
+/* ------------------------------------------------------------------------------
+	Uitzoeken en verplaatsen
+------------------------------------------------------------------------------ */
+#name {
+	font: normal 22pt Arial, Verdana, sans-serif;
+	color: #222;
+	margin-bottom: 10px;
+}
+img { border: 0; }
+
+table th {
+	text-align: left;
+	padding-right:15px;
+}
+
+#personalinfo {
+
+}
+#pic {
+	text-align: left;
+	margin: 0; /*5px 15px 5px 0px;*/
+}
+#personalia {
+
+}
+#personalia table th {
+	text-align: left;
+	padding-right: 15px;
+
+}
+
+#personaltext {
+	clear: both;
+}
+
+.example {
+	padding: 5px 30px 5px 30px;
+	text-align: justify;
+	
+}
+
+h2 {
+	font-size: 130%;
+	margin-bottom: 12px;
+	margin-top: 40px;
+	padding-left: 8px;
+}
+.box {
+	padding: 3px 5px 3px 5px;
+	border: 1px solid #ccc;
+	margin-left: 10px;
+	margin-right: 0px;
+	background-color: #fafafa;
+}
+
+hr {
+	border: none;
+	margin-left: -2%;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	clear: both;
+	border-bottom: 1px solid #dddddd;
+	width: 85%;
+	margin: auto;
+}
+
+/*
+     FILE ARCHIVED ON 15:50:36 Nov 14, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:59:05 May 16, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.759
+  exclusion.robots: 0.117
+  exclusion.robots.policy: 0.105
+  esindex: 0.011
+  cdx.remote: 15.386
+  LoadShardBlock: 135.824 (3)
+  PetaboxLoader3.datanode: 599.037 (4)
+  PetaboxLoader3.resolve: 103.704 (2)
+  load_resource: 619.988
+*/
